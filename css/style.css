@@ -1,0 +1,52 @@
+* {
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid;
+}
+.navigation{
+    height: 100vh;
+    width: 20%;    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    flex: 40;
+}
+.navbarsection{
+    /* background-color: black; */
+    flex: 60;
+    text-align: center;
+    line-height: 3;
+    float: left;
+} 
+
+/* MAIN */
+.main{
+    float: right;
+    /* background-color: black; */
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.one{
+    flex: 20%;    
+}
+#carouselExampleDark{
+    flex: 70%;
+}
+.three{
+    flex: 10%;
+}
+.carousel-item img{  
+    width: 70%;
+    height: 70vh;
+    transition: transform 1s ease, opacity .5s ease-out
+    
+}
+
